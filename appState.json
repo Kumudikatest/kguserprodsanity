@@ -1,0 +1,140 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "01754c2a-41cc-44a7-8d0b-00ea9d9787c7": {
+        "id": "01754c2a-41cc-44a7-8d0b-00ea9d9787c7",
+        "parent": null,
+        "name": "KGuserprodsanity.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "KGuserprodsanity.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs14.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "KGuserprodsanity"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigTestAPIany",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1645529592782,
+        "testCases": {
+          "bed40fb6-2861-47e9-8456-d46239f69d6d": {
+            "id": "bed40fb6-2861-47e9-8456-d46239f69d6d",
+            "name": "Test event",
+            "functionId": "01754c2a-41cc-44a7-8d0b-00ea9d9787c7",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "48612a31-4ae2-46fd-be52-002aed17ef37": {
+        "id": "48612a31-4ae2-46fd-be52-002aed17ef37",
+        "parent": null,
+        "name": "package.json",
+        "type": "JSON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "package.json"
+      }
+    },
+    "openFiles": [
+      "01754c2a-41cc-44a7-8d0b-00ea9d9787c7"
+    ],
+    "currentFileId": "01754c2a-41cc-44a7-8d0b-00ea9d9787c7",
+    "resources": {
+      "apigTestAPIany": {
+        "name": "apigTestAPIany",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 1,
+          "apiMode": 1,
+          "apiName": "TestAPI",
+          "apiId": "0itznun7w3",
+          "endpointType": "EDGE",
+          "rootResourceId": "h2lelj6j7k",
+          "existingResources": {
+            "/MyLambda": "98nqbj",
+            "/": "h2lelj6j7k",
+            "/testWithSlash": "q4m4g1",
+            "/testtwospeciallambda": "q4szm3",
+            "/testtwospecialkumutest": "wey3lk"
+          },
+          "resourceMode": 1,
+          "resourcePath": "/",
+          "resourceName": "",
+          "resourceId": "h2lelj6j7k",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "test",
+          "stageDeploymentId": "q3qtf6",
+          "mode": 1
+        }
+      },
+      "translateResource": {
+        "name": "translateResource",
+        "type": "Translate",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.817.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.10.0",
+    "projectName": "KGuserprodsanity",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1645536053470
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "kguserprodsanity",
+      "url": "https://github.com/Kumudikatest/kguserprodsanity"
+    }
+  }
+}
